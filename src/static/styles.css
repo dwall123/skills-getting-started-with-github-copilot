@@ -223,3 +223,26 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participant-info {
+  background-color: #e3f2fd; /* Light blue background */
+  border: 1px solid #90caf9; /* Blue border */
+  color: #0d47a1; /* Dark blue text */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.participant-info h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1565c0;
+}
+
+.participant-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #0d47a1;
+}
