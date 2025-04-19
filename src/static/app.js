@@ -85,6 +85,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Dark mode toggle
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  darkModeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    document.querySelectorAll("header, section, .activity-card, button").forEach((el) => {
+      el.classList.toggle("dark-mode");
+    });
+  });
+
   // Initialize app
   fetchActivities();
 });
